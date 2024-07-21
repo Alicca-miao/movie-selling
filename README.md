@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# moviev1
+=======
 # icried
+>>>>>>> 838ec6ce43753faff6d469438ff8b37fdf62df3d
 
 This template should help get you started developing with Vue 3 in Vite.
 

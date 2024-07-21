@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -17,3 +18,24 @@ li {
   --bg-color: "#545c64";
   --text-color: "#fff";
 } */
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* 全局样式覆盖 */
+/* :root {
+  --active-color: "#e9f4ff";
+  --bg-color: "#545c64";
+  --text-color: "#fff";
+} */
+>>>>>>> 838ec6ce43753faff6d469438ff8b37fdf62df3d

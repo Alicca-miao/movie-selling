@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
+import './assets/main.scss'
+import axios from 'axios';
+// import change from "@/directives/change";
+// import admin from "@/directives/admin";
+// import router from './router'
+// import store from './store'
+
+import { createApp } from 'vue'
+import "@/mockjs/index";
+import App from './App.vue'
+// console.log(axios.get('https://movie.querydata.org/api'))
+
+
+const app = createApp(App)
+// app.directive(change.name,change)
+// app.directive(admin.name,admin)
+// app.use(router)
+// app.use(store)
+// axios.get("/data/list").then(res => {
+//     console.log(res);
+//   }).catch(error => {
+//     console.log(error);
+//   })
+
+
+
+app.use(ElementPlus);
+app.mount('#app')
+=======
 
 // 1. 引入你需要的组件
 import { Button, NavBar, Icon, Sticky, Tabs, Tab, Loading } from "vant";
@@ -20,3 +52,4 @@ app.use(Sticky);
 app.use(Tabs);
 app.use(Tab);
 app.use(Loading);
+>>>>>>> 838ec6ce43753faff6d469438ff8b37fdf62df3d
